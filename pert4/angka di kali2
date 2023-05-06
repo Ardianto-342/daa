@@ -1,0 +1,21 @@
+#include <iostream>
+
+using namespace std;
+
+int main() {
+    float angka1, angka2;
+
+    // Mengambil input angka 1 dan angka 2
+    cout << "Masukkan angka pertama: ";
+    cin >> angka1;
+    cout << "Masukkan angka kedua: ";
+    cin >> angka2;
+
+    // Menghitung hasil penggandaan angka
+    float hasil = angka1 * angka2;
+
+    // Mencetak hasil penggandaan
+    cout << "Hasil penggandaan: " << hasil << endl;
+
+    return 0;
+}

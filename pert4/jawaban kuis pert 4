@@ -1,0 +1,8 @@
+mermaid
+graph TD;
+  A[Start] --> B[maint()];
+  B --> C[Declare int a];
+  C --> D[Output "masukkan angka ："];
+  D --> E[Input a];
+  E --> F[Output "nilai yang dimasukkan"];
+  F --> G[End];

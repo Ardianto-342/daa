@@ -1,0 +1,8 @@
+int main () {
+    int a;
+    count<<"masukan angka ;";
+    cin>>a;
+    count << "nilai  yang di masukan ";
+    
+    return 0;
+}

@@ -1,0 +1,21 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    // Deklarasi variabel
+    int jumlahBeli, bayar, kembalian;
+
+    // Meminta input jumlah beli dan pembayaran
+    cout << "Masukkan jumlah beli: ";
+    cin >> jumlahBeli;
+    cout << "Masukkan pembayaran: ";
+    cin >> bayar;
+
+    // Menghitung kembalian
+    kembalian = bayar - jumlahBeli;
+
+    // Menampilkan hasil kembalian
+    cout << "Kembalian: " << kembalian << endl;
+
+    return 0;
+}
